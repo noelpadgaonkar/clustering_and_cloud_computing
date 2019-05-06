@@ -93,6 +93,7 @@
 
 .our_activity {
     margin-bottom: 140px;
+    
 }
 
 .our_activity .single-Promo {
@@ -101,7 +102,7 @@
     margin: 100px 35px 0;
     padding: 40px 45px;
     position: relative;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .our_activity .single-Promo .promo-icon {
@@ -114,10 +115,12 @@
 
 .our_activity .single-Promo h2 {
     border-radius: 60px;
-    margin: 12px auto 38px;
+    /*margin: 12px auto 38px;*/
     position: relative;
     width: -moz-fit-content;
     color: black;
+    text-align: center;
+    padding-bottom: 5%
 }
 
 .our_activity .single-Promo h2::before {
@@ -127,6 +130,7 @@
     height: 2px;
     left: 20%;
     position: absolute;
+    text-align: center;
     width: 60%;
     color: black;
 }
@@ -137,6 +141,7 @@
     font-size: 22px;
     font-weight: 500;
     color: black;
+    text-align: center;
 }
 
 .our_activity .single-Promo p {
@@ -183,6 +188,7 @@
     border-radius: 60px;
     margin: 10px auto 38px;
     position: relative;
+    text-align: center;
     width: -moz-fit-content;
     color: white;
     font-weight: bold;
@@ -244,6 +250,19 @@
     text-align: center;
 }
 
+.CloudTitle {
+    text-align:center; 
+    font-family:Roboto; 
+    font-size:60px
+}
+
+.CloudSubTitle{
+    text-align:center; 
+    font-family:Helvetica; 
+    color:white;
+    font-size:35px
+}
+
 .footer .footer_bottom p a {
     color: #2ad880;
     text-decoration: none;
@@ -253,10 +272,9 @@ body{
     min-height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url(img/Picadilly_sqaure.gif);
-    background-size: cover;
+    /*background-size: cover;
     background-attachment: fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   }
